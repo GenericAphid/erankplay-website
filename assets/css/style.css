@@ -1183,15 +1183,17 @@ section {
 .team .member .member-img {
   position: relative;
   overflow: hidden;
-  height: 300px;
+  height: 280px;
   width: 100%;
+  border-radius: 5px 5px 0 0;
 }
 
 .team .member .member-img img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: center;
+  object-position: center top;
+  transform: scale(1.1);
 }
 
 .team .member .social {
